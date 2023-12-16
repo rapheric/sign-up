@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    padding-bottom: 30px;
+    margin: auto;
+    background-color: aliceblue;
+    width: 600px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: purple;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background-color: purple;
+    border-radius: 2px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    gap: 25px;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    height: 80px;
+    border-radius: 6px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+.input input{
+  height: 50px;
+  width: 400px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 19px;
+
+}
+.fogotPassword{
+    margin-top: 27px;
+    padding-left: 42px;
+    color: black;
+    font-size: 18px;
+}
+    
+.signUp{
+color: blue;
+}
+.fogotPassword span{
+    cursor: pointer;
+    color: purple;
+}
+.submitContainer{
+    display: flex;
+    margin:  60px auto;
+    gap: 25px;
+}
+.gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 220px;
+    height: 59px;
+    border-radius: 50px;
+    background-color:gray;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.purple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 220px;
+    height: 59px;
+    border-radius: 50px;
+    background-color:purple;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
